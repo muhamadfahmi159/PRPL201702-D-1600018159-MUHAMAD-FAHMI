@@ -1,0 +1,257 @@
+body{
+  max-width: 100% !important;
+  overflow-x: hidden;
+}
+.navbar {
+    font-family: Montserrat, sans-serif;
+    max-width: 100% !important;
+    margin-bottom: 0 !important;
+    border: 0 !important;
+    font-size: 20px !important;
+    letter-spacing: 4px !important;
+    opacity: 0.9 !important;
+    height: 110px !important;
+    background-color: rgba(17, 49, 99,0.8)!important;
+}
+.navbar li a, .navbar .navbar-brand { 
+    color: #fcf58f !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent !important;
+}
+.open .dropdown-toggle {
+    color: #fff !important;
+    background-color: #555 !important;
+}
+#myCarousel{
+    box-shadow: 0 1px 2px rgba(0,0,0,.3)!important;
+    border: 1px solid blue !important;
+    box-sizing: border-box !important;
+    border-radius: 15px !important;
+}
+.carousel-inner img {
+    width: 100% !important;
+    margin: auto !important;
+}
+.carousel-caption h3 {
+    color: #fff !important;
+}
+@media (max-width: 500px) {
+    .carousel-caption {
+      display: none !important;
+    }
+}
+
+.logo{
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+}
+.pesan, #kamar, #fasilitas, #lokasi{
+  margin: 0px;
+  padding: 40px 80px;
+  top: 230px;
+  left: calc(10% - 80px);
+}
+#kamar ul li, #fasilitas ul li, #galeri ul li, #harga ul li{
+  float: left;
+  list-style: none;
+}
+#lokasi ul li{
+  position: relative;
+  text-align: left;
+}
+#lokasi p, #lokasi strong{
+  margin: 0;
+  font-size: 22px;
+}
+footer {
+    background: rgb(13, 13, 15);
+    color: #f5f5f5;
+    padding: 32px;
+    height: 50px;
+    border: 1px solid gold;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.login{
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  color: black;
+  font-size: 18px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.gallery {
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+.gallery > div {
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+h1 {
+  margin: 40px 0;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+}
+#reservasi, #lokasi, #kamar, #fasilitas, .pesan, #galeri {
+  width: 95%;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  border: 1px solid blue;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.form-reservasi {
+  width: 800px;
+  height: 700px;
+  color: black;
+  padding: 0px 10px;
+  font-size: 18px;
+  border: 1px solid blue;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.form-reservasi p{
+  text-align: left;
+  margin: 0;
+  font-weight: bold;
+}
+.form-reservasi input[type=text], .form-reservasi select{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    color: black;
+    font-size: 20px;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.form-reservasi input[type=submit] {
+    background-color: skyblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.pemesanan-online{
+    width: 100%;
+    height: 80px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.pemesanan-online p{
+    margin-top: -15px;
+}
+#kontak {
+  width: 95%;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(42, 47, 56,0.8);
+  border: 1px solid blue;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.form-kontak{
+  float: left;
+  font-size: 16px;
+  margin: 0px;
+  padding: 40px 80px;
+  top: 230px;
+  left: calc(10% - 80px);
+
+}
+.form-kontak p{
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 5px 0 0;
+  color: #ffffff;
+}
+.form-kontak a{
+  color: gold;
+}
+.form-kontak textarea, .form-kontak input{
+    width: 580px;
+    margin-bottom: 15px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #1f2022;
+    resize: none;
+    box-shadow:  0 1px 0 0 rgba(255,255,255, 0.1);
+    font-size: 14px;
+    color: white;
+}
+.form-kontak button{
+    border-radius: 5px;
+    background-color: #33383b;
+    color: #ffffff;
+    border: 2px solid #ccc;
+    padding: 15px 50px;
+    font-weight: bold;
+    float: left;
+}
+.form-kontak ul li{
+    float: left;
+    list-style: none;
+}

@@ -1,0 +1,83 @@
+body {
+	font: 16px/28px arial, sans-serif;
+	color: #333;
+	background: url(Gambar/wall.jpeg);
+	background-size: cover;
+}
+.laman {
+	width: 1050px;
+	margin: auto;
+	border:5px;
+}
+.header {
+	padding: 30px;
+	height: 50px;
+} 
+.header .judul {
+	text-align: center;
+	line-height: 15px;
+	font-size: 40px;
+	color: black;
+}
+.content{
+	color: black;
+	width: 500px;
+	height: 500px;
+	background-color: transparent;
+	margin: 0px;
+	padding: 10px;
+	position: center;
+}
+.footer{
+	width: 100%;
+	height: 65px;
+	line-height: 10px;
+	float: left;
+}
+.form {
+	width: 320px;
+	height: 420px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 50px 30px;
+}
+.form p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.form input{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+}
+.form input[type='text'],input[type='password']{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.form input[type='submit']{
+	border: none;
+	outline: none;
+	height: 80px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 20px;
+}
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
